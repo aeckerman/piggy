@@ -1,0 +1,62 @@
+body {
+	background-color: #db8acf;
+	background-image: url('https://raw.githubusercontent.com/blubrackets/ovrlap-cache/master/overlay.png'), url('https://raw.githubusercontent.com/blubrackets/ovrlap-cache/master/pattern-size1.svg');
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 414px;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+#title {
+	font-family: 'Pacifico', 'cursive';
+	color: #fff;
+	font-size: 90px;
+}
+#title:hover {
+	cursor: pointer;
+	font-size: 80px;
+}
+
+#phrase {
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto; 
+	border: none;
+	border-bottom: solid 4px #c57cba;
+	transition: border 0.3s;
+}
+
+#phrase:focus {
+	border-bottom: solid 4px #b16fa7; 
+}
+
+#btn1 {
+    border: none;
+    color: #b16fa7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #b16fa7; /* RED */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#btn1:hover {
+    background-color: #b16fa7; /* RED */
+    cursor: pointer;
+    color: white;
+}		

@@ -1,0 +1,8 @@
+{
+	"bake": {
+		"task": "run-Piggy",
+		"run": [
+			"open index.html"
+		]
+	}
+}
